@@ -47,7 +47,7 @@ Stage 3 uses radix-4 butterflies and their implementation is as shown in Fig 3.1
 ![Radix 4 butterfly structure](https://github.com/Pradyumna1312/FFT/blob/main/Screenshots/radix4_4pt.png)
 
 
-## Verification of the Module}
+## Verification of the Module
 The module is verified with the help of test bench for various inputs as shown in Fig 3.16. It takes a total of 9 clock cycles for the whole module to give the final output and due to pipelining nature the next set of inputs doesn't need to wait for 9 cycles. The results are accurate to the specification required and the module was accepted for further process.
 
  
